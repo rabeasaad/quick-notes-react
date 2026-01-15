@@ -1,3 +1,47 @@
+
+# Quick Notes React 📝
+
+**Quick Notes** is a simple and responsive note-taking application built with **React** and **Vite**.
+
+---
+
+## Features
+- Add, delete, and edit notes easily  
+- Search through notes quickly  
+- Mark notes as important  
+- Simple and responsive design for all devices  
+
+---
+
+## Screenshots
+
+### Notes
+![Notes](public/notes.jpg)  
+
+### Search
+![Search](public/search.jpg)  
+
+### Marking Note
+![Marking Note](public/marking-note.jpg)  
+
+---
+
+## How to Run Locally
+1. Clone the repository:
+```bash
+git clone https://github.com/rabeasaad/quick-notes-react.git
+
+
+Navigate to the project folder:
+cd quick-notes-react
+
+Install dependencies:
+npm install
+
+Start the development server:
+npm run dev
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
