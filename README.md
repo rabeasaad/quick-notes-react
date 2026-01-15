@@ -25,8 +25,6 @@ Each user has their own set of notes, which can be added, edited, deleted, and m
 - Tests, ESLint, CI/CD  
 - PWA support (Offline + Installable)
 
----
-
 ## 📸 Screenshots
 
 ### Notes
@@ -37,12 +35,30 @@ Each user has their own set of notes, which can be added, edited, deleted, and m
 
 ---
 
+## Firebase Setup
+To get the backend working, follow these steps:
+
+Create a project at the Firebase Console.
+Authentication: Enable Email/Password provider.
+Firestore Database: Create a database (start in Test Mode for development).
+Config: Copy your Firebase SDK configuration.
+Integration: Paste the config into your src/firebase.js file.
+---
+
+## Technologies Used
+Frontend: React.js, HTML5, CSS3, JavaScript (ES6+)
+Build Tool: Vite
+Backend: Firebase (Firestore & Authentication)
+
+---
+
 ## Getting Started
 
 Follow these instructions to set up the project locally on your machine.
 
 ### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed on your system.
+* Make sure you have [Node.js](https://nodejs.org/) installed on your system.
+* A Firebase account to set up the backend.
 
 ## Installation & Run
 
@@ -61,23 +77,9 @@ npm run dev
 run dev
 
 ---
-
-## Set up Firebase
-Create a Firebase project at https://console.firebase.google.com
-
-Enable Authentication → Email/Password
-
-Enable Firestore Database (Test mode is fine for development)
-
-Copy Firebase config into src/firebase.js
-
----
-
-## Technologies Used 
-React
-Firebase (Authentication & Firestore)
-JavaScript, HTML, CSS
-Vite
----
 ## Author
-"Rabea Alsoudi"
+Rabea Alsoudi 
+GitHub: @rabeasaad
+
+## License
+This project is open-source and available under the MIT License.
