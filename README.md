@@ -33,8 +33,6 @@ Each user has their own set of notes, which can be added, edited, deleted, and m
 ### Marking Note
 ![Marking Note](images/marking-note.JPG)
 
----
-
 ## Firebase Setup
 To get the backend working, follow these steps:
 
