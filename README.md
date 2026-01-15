@@ -18,9 +18,6 @@
 ### Notes
 ![Notes](images/notes.JPG)
 
-### Search
-![Search](images/search.JPG)
-
 ### Marking Note
 ![Marking Note](images/marking-note.JPG)
 
