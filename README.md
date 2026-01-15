@@ -59,8 +59,10 @@ npm install
 # Start the development server
 npm run dev
 run dev
+
 ---
-**Set up Firebase**
+
+## Set up Firebase
 Create a Firebase project at https://console.firebase.google.com
 
 Enable Authentication → Email/Password
@@ -69,16 +71,13 @@ Enable Firestore Database (Test mode is fine for development)
 
 Copy Firebase config into src/firebase.js
 
+---
 
-**Run the application**
-npm run dev
-
-**Technologies Used***
+## Technologies Used 
 React
-
 Firebase (Authentication & Firestore)
 JavaScript, HTML, CSS
 Vite
-
-**Author**
+---
+## Author
 "Rabea Alsoudi"
