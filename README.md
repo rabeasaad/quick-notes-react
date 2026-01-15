@@ -30,22 +30,19 @@ Follow these instructions to set up the project locally on your machine.
 ### Prerequisites
 Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
-### Installation & Run
+## Installation & Run
 
-1. **Clone the repository**
 ```bash
-git clone [https://github.com/rabeasaad/quick-notes-react.git](https://github.com/rabeasaad/quick-notes-react.git)
+# Clone the repository
+git clone https://github.com/rabeasaad/quick-notes-react.git
 
-### 2. Navigate to the project folder
-```bash
+# Navigate to the project folder
 cd quick-notes-react
-'''
 
-3. **Install dependencies**
-'''bash
+# Install dependencies
 npm install
-'''
-4. **Start the development server**
-'''bash
+
+# Start the development server
 npm run dev
+run dev
 '''
