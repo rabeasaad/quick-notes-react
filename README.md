@@ -34,18 +34,14 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
    ```bash
    git clone [https://github.com/rabeasaad/quick-notes-react.git](https://github.com/rabeasaad/quick-notes-react.git)
 
-### 2. Navigate to the project folder
-```bash
+# Navigate to the project folder
 cd quick-notes-react
 
-**Install dependencies**
-```bash
+# Install dependencies
 npm install
 
-**Start the development server**
-```bash
+# Start the development server
 npm run dev
-
 
 # React + Vite
 
