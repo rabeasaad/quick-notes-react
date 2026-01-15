@@ -46,7 +46,7 @@ export default function NoteItem({ note, editNote, deleteNote, toggleImportant }
                     }}
                     onClick={() => toggleImportant(note.id)}
                 >
-                    {note.important ? 'مهمة' : 'تمييز'}
+                    {note.important ? 'Important' : 'Mark'}
                 </button>
                 <button
                     style={{
@@ -59,7 +59,7 @@ export default function NoteItem({ note, editNote, deleteNote, toggleImportant }
                     }}
                     onClick={() => editNote(note.id)}
                 >
-                    تعديل
+                    Edit
                 </button>
                 <button
                     style={{
@@ -72,7 +72,7 @@ export default function NoteItem({ note, editNote, deleteNote, toggleImportant }
                     }}
                     onClick={() => deleteNote(note.id)}
                 >
-                    حذف
+                    Remove
                 </button>
             </div>
         </li>

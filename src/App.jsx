@@ -35,7 +35,7 @@ function App() {
   }
 
   const deleteNote = (id) => {
-    if (window.confirm('هل أنت متأكد أنك تريد حذف هذه الملاحظة؟')) {
+    if (window.confirm('Are you sure you want to delete this note?')) {
       setNotes(notes.filter(n => n.id !== id))
     }
   }
@@ -43,8 +43,8 @@ function App() {
   const editNote = (id) => {
     const noteToEdit = notes.find(n => n.id === id)
     if (!noteToEdit) return
-    if (window.confirm('هل تريد تعديل هذه الملاحظة؟')) {
-      const newText = prompt('عدل الملاحظة:', noteToEdit.text)
+    if (window.confirm('Do you want to edit this note?')) {
+      const newText = prompt('Edit the note:', noteToEdit.text)
       if (newText !== null && newText.trim() !== '') {
         const updatedNotes = notes.map(n =>
           n.id === id ? { ...n, text: newText.trim(), date: Date.now() } : n
@@ -73,7 +73,7 @@ function App() {
         type="text"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        placeholder="ابحث في ملاحظاتك..."
+        placeholder="Search your notes..."
         style={{
           width: '100%',
           padding: '12px',

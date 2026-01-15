@@ -5,7 +5,7 @@ export default function NoteInput({ note, setNote, addNote }) {
                 type="text"
                 value={note}
                 onChange={(e) => setNote(e.target.value)}
-                placeholder="اكتب ملاحظتك..."
+                placeholder="Type your note here..."
                 style={{
                     flex: 1,
                     padding: '12px',
@@ -30,7 +30,7 @@ export default function NoteInput({ note, setNote, addNote }) {
                 onMouseOver={(e) => (e.target.style.backgroundColor = '#45a049')}
                 onMouseOut={(e) => (e.target.style.backgroundColor = '#4caf50')}
             >
-                إضافة
+                Add
             </button>
         </div>
     )
