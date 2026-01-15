@@ -36,11 +36,16 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 ```bash
 git clone [https://github.com/rabeasaad/quick-notes-react.git](https://github.com/rabeasaad/quick-notes-react.git)
 
-# Navigate to the project folder
+---
+2. **Navigate to the project folder**
+---bash
 cd quick-notes-react
-
-# Install dependencies
+---
+3. **Install dependencies**
+---bash
 npm install
-
-# Start the development server
+---
+4. **Start the development server**
+---bash
 npm run dev
+---
