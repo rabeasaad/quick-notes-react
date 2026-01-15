@@ -1,15 +1,29 @@
-# Quick Notes React 📝
+# Quick Notes App 📝
 
-**Quick Notes** is a simple, intuitive, and responsive note-taking application built with **React** and **Vite**. It's designed to help you organize your thoughts quickly and efficiently.
+## Description
+Quick Notes is a full-stack web application built with React and Firebase.  
+It allows users to register, login, and manage their personal notes securely in the cloud.  
+Each user has their own set of notes, which can be added, edited, deleted, and marked as important.
 
 ---
 
 ## Features
+- User Authentication (Register/Login/Logout) via Firebase  
+- Save notes per user in Firestore Database  
+- Add, edit, delete notes  
+- Mark notes as important  
+- Search notes in real-time  
+- Responsive and clean UI
 
-* **Full CRUD Support:** Add, delete, and edit notes with ease.
-* **Smart Search:** Find your notes instantly using the built-in search bar.
-* **Priority Marking:** Highlight important notes to keep them at the top of your mind.
-* **Fully Responsive:** A seamless experience across mobile, tablet, and desktop devices.
+---
+
+## Future Improvements
+- Dark Mode 🌙  
+- Undo after deletion ↩️  
+- Tags / Categories 🏷️  
+- Toast Notifications 🔔  
+- Tests, ESLint, CI/CD  
+- PWA support (Offline + Installable)
 
 ---
 
@@ -45,4 +59,26 @@ npm install
 # Start the development server
 npm run dev
 run dev
-'''
+---
+**Set up Firebase**
+Create a Firebase project at https://console.firebase.google.com
+
+Enable Authentication → Email/Password
+
+Enable Firestore Database (Test mode is fine for development)
+
+Copy Firebase config into src/firebase.js
+
+
+**Run the application**
+npm run dev
+
+**Technologies Used***
+React
+
+Firebase (Authentication & Firestore)
+JavaScript, HTML, CSS
+Vite
+
+**Author**
+"Rabea Alsoudi"
