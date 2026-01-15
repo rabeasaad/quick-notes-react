@@ -60,19 +60,19 @@ Follow these instructions to set up the project locally on your machine.
 ## Installation & Run
 
 bash
-# Clone the repository
+## Clone the repository
 git clone https://github.com/rabeasaad/quick-notes-react.git
 
 ## Navigate to the project folder
 cd quick-notes-react
-
+---
 ## Install dependencies
 npm install
-
+---
 ## Start the development server
 npm run dev
 run dev
-
+---
 ## Author
 Rabea Alsoudi 
 GitHub: @rabeasaad
