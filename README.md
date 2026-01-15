@@ -18,10 +18,10 @@ Each user has their own set of notes, which can be added, edited, deleted, and m
 ---
 
 ## Future Improvements
-- Dark Mode 🌙  
-- Undo after deletion ↩️  
-- Tags / Categories 🏷️  
-- Toast Notifications 🔔  
+- Dark Mode 
+- Undo after deletion 
+- Tags / Categories 
+- Toast Notifications 
 - Tests, ESLint, CI/CD  
 - PWA support (Offline + Installable)
 
