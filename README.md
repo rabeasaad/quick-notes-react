@@ -4,7 +4,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 * **Full CRUD Support:** Add, delete, and edit notes with ease.
 * **Smart Search:** Find your notes instantly using the built-in search bar.
@@ -17,11 +17,11 @@
 
 | Notes Dashboard | Search Functionality | Marking as Important |
 | :---: | :---: | :---: |
-| ![Notes](public/notes.jpg) | ![Search](public/search.jpg) | ![Marking Note](public/marking-note.jpg) |
+| ![Notes](images/notes.jpg) | ![Search](images/search.jpg) | ![Marking Note](images/marking-note.jpg) |
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these instructions to set up the project locally on your machine.
 
