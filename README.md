@@ -25,7 +25,7 @@ Each user has their own set of notes, which can be added, edited, deleted, and m
 - Tests, ESLint, CI/CD  
 - PWA support (Offline + Installable)
 
-## 📸 Screenshots
+## Screenshots
 
 ### Notes
 ![Notes](images/notes.JPG)
@@ -53,13 +53,13 @@ To get the backend working, follow these steps:
 
 Follow these instructions to set up the project locally on your machine.
 
-### Prerequisites
+## Prerequisites
 * Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 * A Firebase account to set up the backend.
 
 ## Installation & Run
 
-```bash
+bash
 # Clone the repository
 git clone https://github.com/rabeasaad/quick-notes-react.git
 
@@ -73,7 +73,6 @@ npm install
 npm run dev
 run dev
 
----
 ## Author
 Rabea Alsoudi 
 GitHub: @rabeasaad
