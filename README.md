@@ -36,16 +36,16 @@ Each user has their own set of notes, which can be added, edited, deleted, and m
 ## Firebase Setup
 To get the backend working, follow these steps:
 
-Create a project at the Firebase Console.
-Authentication: Enable Email/Password provider.
-Firestore Database: Create a database (start in Test Mode for development).
-Config: Copy your Firebase SDK configuration.
-Integration: Paste the config into your src/firebase.js file.
+- Create a project at the Firebase Console.
+- Authentication: Enable Email/Password provider.
+- Firestore Database: Create a database (start in Test Mode for development).
+- Config: Copy your Firebase SDK configuration.
+- Integration: Paste the config into your src/firebase.js file.
 
 ## Technologies Used
-Frontend: React.js, HTML5, CSS3, JavaScript (ES6+)
-Build Tool: Vite
-Backend: Firebase (Firestore & Authentication)
+- Frontend: React.js, HTML5, CSS3, JavaScript (ES6+)
+- Build Tool: Vite
+- Backend: Firebase (Firestore & Authentication)
 
 ---
 
