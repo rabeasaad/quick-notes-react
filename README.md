@@ -16,13 +16,13 @@
 ## 📸 Screenshots
 
 ### Notes
-![Notes](images/notes.jpg)
+![Notes](images/notes.JPG)
 
 ### Search
-![Search](images/search.jpg)
+![Search](images/search.JPG)
 
 ### Marking Note
-![Marking Note](images/marking-note.jpg)
+![Marking Note](images/marking-note.JPG)
 
 ---
 
