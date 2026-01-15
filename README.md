@@ -15,9 +15,14 @@
 
 ## 📸 Screenshots
 
-| Notes Dashboard | Search Functionality | Marking as Important |
-| :---: | :---: | :---: |
-| ![Notes](images/notes.jpg) | ![Search](images/search.jpg) | ![Marking Note](images/marking-note.jpg) |
+### Notes
+![Notes](images/notes.jpg)
+
+### Search
+![Search](images/search.jpg)
+
+### Marking Note
+![Marking Note](images/marking-note.jpg)
 
 ---
 
