@@ -41,7 +41,6 @@ Authentication: Enable Email/Password provider.
 Firestore Database: Create a database (start in Test Mode for development).
 Config: Copy your Firebase SDK configuration.
 Integration: Paste the config into your src/firebase.js file.
----
 
 ## Technologies Used
 Frontend: React.js, HTML5, CSS3, JavaScript (ES6+)
